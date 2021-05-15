@@ -1,0 +1,43 @@
+.pic{
+    animation-name: appear;
+    animation-duration: 7s;
+}
+@keyframes appear {
+    from {
+        opacity: 0;
+        width: 100px;
+        height: 100px;
+        transform: rotate(-183deg);
+    }
+    to {
+        opacity: 1;
+        width: 900px;
+        height: 500px;
+        transform: rotate(0deg);
+    }
+}
+.Title{
+    animation-name:blink ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes blink {
+    0% {
+        color: orchid;
+    }
+    20% {
+        color: teal;
+    }
+    40% {
+        color: yellow;
+    }
+    60% {
+        color: red;
+    }
+    80% {
+        color: royalblue;
+    }
+    100% {
+        color: orange;
+    }
+}

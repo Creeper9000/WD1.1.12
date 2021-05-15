@@ -1,0 +1,36 @@
+body{
+    font-family: Arial,'Times New Roman', Times, serif;
+}
+.Title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    box-shadow: 5px 5px 10px black;
+    background-color: white;
+}
+.content {
+    font-size: large;
+    display: inline;
+    width: 50%;
+}
+.rbb{
+    float: left;
+    margin: 10px;
+}
+.pic{
+    text-align: center;
+    box-shadow: 5px 5px 10px black;
+}
+.MC{
+    float: right;
+}
+.dropdown{
+    display: inline-block;
+}
+.Dropdown-content{
+    display: none;
+    color:black;
+    float: right;
+}
+.dropdown:hover .Dropdown-content {
+    display: block;
+}
